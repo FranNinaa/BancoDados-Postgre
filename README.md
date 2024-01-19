@@ -4,8 +4,11 @@
 Este projeto consiste em um exercício prático de banco de dados com o intuito de aprimorar os conhecimentos em modelagem e manipulação de dados em um contexto realista. O exercício simula um sistema de gestão para uma floricultura, permitindo o gerenciamento detalhado de clientes, produtos e compras.
 
 ## Funcionalidades
+
 **Gestão de Clientes:** Capacidade de registrar e manter informações dos clientes, como RG, nome, telefone e endereço.
+
 **Gestão de Produtos:** Sistema para cadastro de produtos com detalhes como nome, tipo (ex.: flor, vaso, planta), preço e quantidade em estoque.
+
 **Registro de Compras:** Funcionalidade para gravar as compras, detalhando o cliente que realizou a compra, a data, o valor total e os produtos comprados.
 
 ## Diagramas
@@ -16,7 +19,7 @@ O exercício utiliza dois diagramas fundamentais para representar a estrutura de
 ![Diagrama Entidade-Relacionamento](./DiagramaExercicioBD.PNG)
 
 
-***Diagrama com Atributos:** Descreve cada entidade com seus atributos específicos:
+**Diagrama com Atributos:** Descreve cada entidade com seus atributos específicos:
 
 ![Diagrama Atributo](./ExercicioBD.PNG)
 

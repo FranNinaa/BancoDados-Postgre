@@ -1,0 +1,31 @@
+Uma floricultura deseja informatizar suas operações. 
+Inicialmente, deseja manter um cadastro de todos os seus clientes, 
+mantendo informações como: RG, nome, telefone e endereço. 
+Deseja também manter um cadastro contendo informações sobre os produtos que vende,
+ tais como: nome do produto, tipo (flor, vaso, planta,...), preço e quantidade em estoque. 
+Quando um cliente faz uma compra, a mesma é armazenada, mantendo informação sobre o cliente 
+que fez a compra, a data da compra, o valor total e os produtos comprados.
+
+
+Diagramas
+
+Produto
+Compra
+Cliente
+Telefone
+Endereço
+
+Diagrama com Atributo
+
+Produto - Id, Nome, Tipo, Valor, Quantidade de Estoque
+Comnpra - Id, Valor Total, Data da Compra
+Cliente - Id, Nome
+Endereço - Id, Rua, Bairro, Cidade
+Contato - Id, Numero Celular, Numero Telefone
+
+Relacionamento
+
+Produto X Compra = Muitos produtos pode esta em vairas compras
+Cliente X Compra = Um cliente pode ter nenhuma ou varias compras
+Cliente X Endereço = Cada cliente tem um ou mais endereços
+Cliente X Contato = um cliente pode ter nenhum ou varios contatos

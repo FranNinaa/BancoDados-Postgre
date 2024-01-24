@@ -1,9 +1,9 @@
 
-create table Produto(
-	Id int PRIMARY KEY,
-	Nome varchar(200),
-	Tipo varchar(100),
-	Valor float
+CREATE TABLE Produto (
+    Id INT PRIMARY KEY,
+    Nome VARCHAR(200),
+    Tipo VARCHAR(100),
+    Valor NUMERIC(6, 2)  -- Alterado de float para numeric(6,2)
 );
 
 create table Endereco(
@@ -13,12 +13,13 @@ create table Endereco(
 	Cidade varchar (100)
 );
 
-create table Cliente(
-	Id int PRIMARY KEY,
-	Nome varchar(150),
-	CPF int,
-	Id_Endereco int REFERENCES Endereco(Id)
+CREATE TABLE Cliente (
+    Id INT PRIMARY KEY,
+    Nome VARCHAR(150),
+    CPF BIGINT,  -- Alterado de int para bigint
+    Id_Endereco INT REFERENCES Endereco(Id)
 );
+
 
 create table Venda(
 	Id int PRIMARY KEY,
